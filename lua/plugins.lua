@@ -61,7 +61,8 @@ local plugins = {
     ---@module "ibl"
     ---@type ibl.config
     opts = {},
-	}
+	},
+	'aurum77/live-server.nvim'
 }
 
 local opts = {}
