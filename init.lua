@@ -15,12 +15,8 @@ vim.o.smarttab = true
 vim.autoindent = true
 
 -- Mappings
-vim.cmd[[nnoremap <C-f> :NvimTreeFocus<CR>
-nnoremap <C-i> :Telescope find_files<CR>
-nnoremap <C-t> :NvimTreeToggle<CR>
-nmap <F8> :TagbarToggle<CR>
-noremap <C-w> :Bdelete<CR>
-nnoremap <C-y> :terminal<CR>]]
+vim.cmd[[nnoremap <Tab> :Telescope find_files<CR>
+noremap <C-w> :Bdelete<CR>]]
 
 -- Remove "How-to disable mouse" button
 vim.cmd[[aunmenu PopUp.How-to\ disable\ mouse
